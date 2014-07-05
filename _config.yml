@@ -3,10 +3,10 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: 喵哆哩
-subtitle: 喵喵喵
+title: Duoli Meow 
+subtitle: All problems can be solved by BFS.
 description:
-author: Athena Yin
+author: Athena
 email:
 language:
 
@@ -14,7 +14,7 @@ language:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://xiaoy.in/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -75,12 +75,12 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: duolimeow
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: landscape
+theme: apollo
 exclude_generator:
 
 # Markdown
@@ -96,7 +96,7 @@ markdown:
 
 # Stylus
 stylus:
-  compress: false
+  compress: true
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
@@ -114,3 +114,16 @@ feed:
 plugins:
   - hexo-generator-feed
   - hexo-math
+
+####Author Avatar Picture
+author_img_enable: true
+dataURI: false
+author_img_data: 
+author_img: http://i.minus.com/ibm44MTMheZ5zI.jpeg 
+
+#### Image
+#imglogo:
+#  enable: true
+#    src: /img/0.jpeg
+#      favicon: /img/0.jpeg
+#        apple_icon: /img/0.jpeg
