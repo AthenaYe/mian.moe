@@ -45,14 +45,14 @@ mkfs是make file system意。注意是sda1不是sda哦。
 
 安装基本系统：
 
-	#  pacstrap /mnt base base-devel vim
+	# pacstrap /mnt base base-devel vim
 
 其中base是基础软件包组，base-devel是基础开发包组，vim是编辑器。
 (尼玛现在写东西怎么跟写周报是一个味儿，其中其中的）
 
 将开机挂载写入fstab：
 
-	#  genfstab -U -p /mnt >> /mnt/etc/fstab
+	# genfstab -U -p /mnt >> /mnt/etc/fstab
 
 ## 配置
 
