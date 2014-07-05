@@ -109,6 +109,10 @@ chroot到新安装的系统中：
 `#systemctl enable gdm`
 `#systemctl start gdm`
 
-
-
-
+#安装virtualbox扩展
+刚装上的时候，arch是分辨率是800*600，极其之不方便。就像这样：
+![alt text](http://i.minus.com/jbxCglTACJQ7zf.png)
+调分辨率，修改配置文件，都是没有用的噢。
+这个时候我们的[archwiki](https://wiki.archlinux.org/index.php/VirtualBox#Install_the_Guest_Additions)就闪亮登场啦~！
+`#pacman -S virtualbox-guest-utils`
+搞定~
