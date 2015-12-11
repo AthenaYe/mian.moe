@@ -102,9 +102,9 @@ stylus:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: rsync
-  host: xiaoy.in
-  user: athena_yin
-  root: /home/wwwroot/xiaoy.in/
+  host: mian.moe
+  user: athena
+  root: /home/www/mian.moe/
 
 feed:
   type: atom
