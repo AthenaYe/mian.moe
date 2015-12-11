@@ -2,6 +2,7 @@ title: 在virtualbox下安装arch
 date: 2014-07-03 22:23:04
 tags: 
 ---
+
 第一次用markdown写博客大家轻拍哈~
 
 暑假在家无聊，于是决定在自己的mac上装个arch的虚拟机，
@@ -9,7 +10,7 @@ tags:
 
 安装以后的界面就是这样，gnome，不要跟我争哪个桌面环境好什么的，我装gnome是因为它好装= =。。。等过段时间我就来折腾i3噢哈哈。
 
-![alt text](http://xiaoyin.qiniudn.com/arch.png)
+![alt text](/img/arch-vbox.png)
 
 本博文是给胖哥哥的[这篇博文](https://bigeagle.me/2014/06/archlinux-install-for-beginners/)打的补丁，他是在SSD上装的，而我是在virtualbox里。
 
@@ -129,9 +130,11 @@ chroot到新安装的系统中：
 
 在`/etc/pacman.conf`里加入：
 
-	[archlinuxfr]
-	SigLevel = Never
-	Server = http://repo.archlinux.fr/$arch
+```bash
+[archlinuxfr]
+SigLevel = Never
+Server = http://repo.archlinux.fr/$arch
+```
 
 有人反映 [archlinuxcn.org](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/) 更快一些。
 
@@ -147,7 +150,7 @@ chroot到新安装的系统中：
 
 刚装上的时候，arch是分辨率是800*600，极其之不方便。就像这样：
 
-![alt text](http://xiaoyin.qiniudn.com/archlogin.png)
+![alt text](/img/archlogin.png)
 
 调分辨率，修改配置文件，都是没有用的噢。
 这个时候我们的[archwiki](https://wiki.archlinux.org/index.php/VirtualBox#Install_the_Guest_Additions)就闪亮登场啦~！
