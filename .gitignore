@@ -2,6 +2,7 @@
 *.swp
 *~
 node_modules
+yarn.lock
 db.json
 /public
 /themes

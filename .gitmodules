@@ -1,0 +1,3 @@
+[submodule "themes/oishi"]
+	path = themes/oishi
+	url = https://github.com/henryhuang/oishi.git
